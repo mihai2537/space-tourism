@@ -8,7 +8,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/favicon-32x32.png"
+      href="../assets/favicon-32x32.png"
     />
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,10 +19,10 @@
     />
 
     <!-- Our custom CSS -->
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../css/index.css" />
     <title>Frontend Mentor | Space tourism website</title>
-    <script src="navigation.js" defer></script>
-    <script src="tabs.js" defer></script>
+    <script src="../js/navigation.js" defer></script>
+    <script src="../js/tabs.js" defer></script>
   </head>
 
   <body class="crew">
@@ -30,7 +30,7 @@
     <header class="primary-header flex">
       <div>
         <img
-          src="./assets/shared/logo.svg"
+          src="../assets/shared/logo.svg"
           alt="space tourism logo"
           class="logo"
         />
@@ -47,7 +47,7 @@
           <li>
             <a
               class="ff-sans-cond uppercase text-white letter-spacing-2"
-              href="index.html"
+              href="../index.html"
               ><span aria-hidden="true">00</span>Home</a
             >
           </li>
@@ -203,34 +203,43 @@
 
       <picture id="commander-image">
         <source
-          srcset="assets/crew/image-douglas-hurley.webp"
-          type="image/webp"
-        />
-        <img src="assets/crew/image-douglas-hurley.png" alt="Douglas Hurley" />
-      </picture>
-      <picture hidden id="mission-image">
-        <source
-          srcset="assets/crew/image-mark-shuttleworth.webp"
+          srcset="../assets/crew/image-douglas-hurley.webp"
           type="image/webp"
         />
         <img
-          src="assets/crew/image-mark-shuttleworth.png"
+          src="../assets/crew/image-douglas-hurley.png"
+          alt="Douglas Hurley"
+        />
+      </picture>
+      <picture hidden id="mission-image">
+        <source
+          srcset="../assets/crew/image-mark-shuttleworth.webp"
+          type="image/webp"
+        />
+        <img
+          src="../assets/crew/image-mark-shuttleworth.png"
           alt="Douglas Hurley"
         />
       </picture>
       <picture hidden id="pilot-image">
         <source
-          srcset="assets/crew/image-victor-glover.webp"
+          srcset="../assets/crew/image-victor-glover.webp"
           type="image/webp"
         />
-        <img src="assets/crew/image-victor-glover.png" alt="Douglas Hurley" />
+        <img
+          src="../assets/crew/image-victor-glover.png"
+          alt="Douglas Hurley"
+        />
       </picture>
       <picture hidden id="crew-image">
         <source
-          srcset="assets/crew/image-anousheh-ansari.webp"
+          srcset="../assets/crew/image-anousheh-ansari.webp"
           type="image/webp"
         />
-        <img src="assets/crew/image-anousheh-ansari.png" alt="Douglas Hurley" />
+        <img
+          src="../assets/crew/image-anousheh-ansari.png"
+          alt="Douglas Hurley"
+        />
       </picture>
     </main>
   </body>
